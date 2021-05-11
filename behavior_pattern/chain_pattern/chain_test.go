@@ -18,6 +18,6 @@ func TestNewLevel1(t *testing.T) {
 	fmt.Println(chain.doAuth())
 	authMap[1] = struct{}{}
 	fmt.Println(chain.doAuth())
-	authMap[1] = struct{}{}
+	authMap[2] = struct{}{}
 	fmt.Println(chain.doAuth())
 }

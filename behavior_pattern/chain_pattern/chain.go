@@ -23,11 +23,11 @@ type Base struct {
 	Next IChain
 }
 
-func(b Base) setNext(next IChain) {
+func(b *Base) setNext(next IChain) {
 	b.Next = next
 }
 
-func(b Base) getNext() IChain {
+func(b *Base) getNext() IChain {
 	return b.Next
 }
 //
